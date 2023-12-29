@@ -1,11 +1,8 @@
+
+
 import React from 'react'
 
-interface props {
-    name:String
-
-}
-const page : React.FC<props> = ({name}) => {
-
+const App = () => {
   return (
     <div>
       
@@ -13,5 +10,4 @@ const page : React.FC<props> = ({name}) => {
   )
 }
 
-export default page
-
+export default App
