@@ -1,5 +1,17 @@
+import React from 'react'
 
-function Button() {
-  return <button></button>
-   
+interface props {
+    name:String
+
 }
+const page : React.FC<props> = ({name}) => {
+
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default page
+
